@@ -1,0 +1,71 @@
+.register{
+    padding-top: 64px;
+    padding-bottom: 96px;
+    display: flex;
+
+    .register__inputs{
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        margin-right: 128px;
+
+        .register__input{
+            height: 45px;
+            width: 360px;
+            box-sizing: border-box;
+            padding: 13px;
+            margin-bottom: 20px;
+        }
+        .register__title{
+            font-weight: 300;
+            font-size: 16px;
+            color: #222;
+            margin-bottom: 20px;
+        }
+        .register__radios{
+            margin-bottom: 33px;
+        }
+        .register__pass-descr{
+            color: #B1B1B1;
+            font-size: 13px;
+            margin-bottom: 39px;
+        }
+
+    }
+
+    .register__notification{
+        font-size: 24px;
+        font-weight: 300;
+
+        .notification__title{
+            margin-bottom: 22px;
+            font-weight: 300;
+        }
+        .notofocation__text{
+            line-height: 29px;
+        }
+        .notifications__list{
+            margin-left: 35px;
+            margin-top: 21px;
+            // list-style-type: none;
+            list-style-image: url('../img/reg-notif-point.png');
+            li {
+                margin-bottom: 16px;
+            }
+
+        }
+    }
+}
+.submit__btn:hover{
+    background: #F16D7F - #222;
+}
+.submit__btn{
+    background: #F16D7F;
+    padding: 15px 29px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 167px;
+    box-sizing: border-box;
+}

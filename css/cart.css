@@ -1,0 +1,199 @@
+.cart__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 96px;
+}
+
+.cart__box .cart__items {
+  width: 65%;
+}
+
+.cart__box .cart__items .cart__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+          box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+  margin-bottom: 40px;
+  max-width: 652px;
+  position: relative;
+}
+
+.cart__box .cart__items .cart__item .item__cross {
+  position: absolute;
+  top: 28px;
+  right: 22px;
+}
+
+.cart__box .cart__items .cart__item .item__photo {
+  height: 306px;
+}
+
+.cart__box .cart__items .cart__item .item__props {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 22px 31px;
+}
+
+.cart__box .cart__items .cart__item .item__props .item__title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 42px;
+  color: #222;
+}
+
+.cart__box .cart__items .cart__item .item__props .item__title a:hover {
+  color: #555;
+}
+
+.cart__box .cart__items .cart__item .item__props .item__title a {
+  color: #222;
+  text-decoration: none;
+}
+
+.cart__box .cart__items .cart__item .item__props .item__title_type {
+  margin-top: 8px;
+}
+
+.cart__box .cart__items .cart__item .item__props .item__prop-line {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  color: #575757;
+}
+
+.cart__box .cart__items .cart__item .item__props .item__prop-line .item__cost {
+  color: #F16D7F;
+}
+
+.cart__box .cart__items .cart__item .item__props .item__prop-line .item__prop-input {
+  width: 44px;
+  height: 25px;
+  text-align: center;
+  border-color: #eaeaea;
+  border-style: solid;
+  font-size: 18px;
+  color: #656565;
+  margin-left: 24px;
+}
+
+.cart__box .cart__items .cart__two-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-top: 72px;
+}
+
+.cart__box .cart__items .cart__two-btns a:hover {
+  color: white;
+  background: #F16D7F;
+  border-color: #F16D7F;
+}
+
+.cart__box .cart__items .cart__two-btns a {
+  height: 50px;
+  padding: 18px 39px;
+  border: 1px solid #a4a4a4;
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.cart__box .cart__inputs {
+  width: 35%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cart__box .cart__inputs .shipping__input {
+  width: 360px;
+  height: 45px;
+  padding: 12px 17px;
+  font-size: 13px;
+  margin: 21px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cart__box .cart__inputs .shipping__btn:hover {
+  color: white;
+  background: #F16D7F;
+  border-color: #F16D7F;
+}
+
+.cart__box .cart__inputs .shipping__btn {
+  width: 100px;
+  height: 34px;
+  border: 1px solid #a4a4a4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 11px;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 24px 21px;
+  color: #4a4a4a;
+}
+
+.cart__box .cart__inputs .cart__total-box {
+  background: #F5F3F3;
+  padding: 43px;
+}
+
+.cart__box .cart__inputs .cart__total-box .total__value {
+  margin-left: 30px;
+}
+
+.cart__box .cart__inputs .cart__total-box .cart__total_sub {
+  font-size: 11px;
+  margin-bottom: 12px;
+  text-align: right;
+}
+
+.cart__box .cart__inputs .cart__total-box .cart__total_grand {
+  font-size: 16px;
+  text-align: right;
+  margin-bottom: 21px;
+}
+
+.cart__box .cart__inputs .cart__total-box .cart__total_grand .total__value {
+  color: #F16D7F;
+}
+
+.cart__box .cart__inputs .cart__total-box .total__hr {
+  margin-bottom: 17px;
+  background: #E2E2E2;
+  height: 1px;
+}
+
+.cart__box .cart__inputs .cart__total-box .total__btn:hover {
+  background: #cf4b5d;
+}
+
+.cart__box .cart__inputs .cart__total-box .total__btn {
+  background: #F16D7F;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+/*# sourceMappingURL=cart.css.map */
